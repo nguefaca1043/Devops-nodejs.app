@@ -1,0 +1,26 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --ex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguefaca1043/Devops-nodejs.app.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguefaca1043/Devops-nodejs.app/issues"
+  },
+  "homepage": "https://github.com/nguefaca1043/Devops-nodejs.app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.4",
+    "supertest": "^6.2.2"
+  }
+}
